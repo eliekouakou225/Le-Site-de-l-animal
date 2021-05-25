@@ -1,0 +1,13 @@
+l'ombre des élements utiliser
+Opacity 73%
+Déclage sur X 8
+||      sur y 11
+Atténuation 5px
+
+
+pour la section details 
+vert: Home
+Jaune : Agrandir la photo
+rouge: Fermer
+
+police: Roboto ; Fondy Script PERSONAL USE ONLY (Pour le h1)

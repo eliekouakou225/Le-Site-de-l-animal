@@ -1,0 +1,160 @@
+	<!DOCTYPE html>
+	<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<style>
+			body{
+				width: 100%;
+				padding: 0px;
+				margin: 0px;
+				font-family: Roboto, verdana, 'sans-serif';
+				font-size: 23px;
+				line-height: 1.5;
+				color: black;
+				background: url('img/bg-desert.png') no-repeat center fixed;
+				-webkit-background-size: cover;
+			}
+			#Contient-le-Titre h1{
+				color: white;
+				font-size: 40px;
+				text-transform: uppercase;
+				text-shadow: 4px 4px 4px #AE6C3D;
+				position: relative;
+				bottom: 15px;
+				text-decoration: none;
+			}
+			#annimalSect1{
+				background-image: url('img/chameau2.jpg');
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.annimalSect:hover{
+				box-shadow: 6px 6px 15px #AE6C3D;
+			}
+			.popup-textimg{
+				border: 3px solid #AE6C3D;  
+				background: url('img/chameau1.jpg');
+				background-repeat: no-repeat;
+				background-position: center;
+
+			}
+			.details-annimaux span{
+				color:#AE6C3D;
+			}
+			.details-annimaux-titre{
+				color:#AE6C3D ;
+			}
+		</style> 
+		<title>Le site de l’animal/Désert</title>
+	</head>
+	<body>
+		<div class='filter-body'>
+			<div id='enveloppe-fixe'>
+				<div id="Contient-le-Titre">
+					<a href="index.html"><img src="img/home-icon.png" width="35" height="35" title="Page d'acceuille"></a>
+					<h1><a href="desert.html">Désert</a></h1>
+				</div>
+				<marquee> @Elie Kouakou. Un désert est une zonz de terre ou les précipitations sont rares et peu abondantes, et ou par conséquent, les condition de vie sont hostiles pour les plantes et pour les animaux. </marquee>
+
+				<!-- Les icônes de navigation Gauche et Droite -->
+				<div id="iconPourChangerDePage">
+					<div><a href="ocean.html"><img src="img/Left-icon.png" width="25" height="35" id="iconRight"></a></div>
+					<div><a href="index.html"><img src="img/Right-icon.png" width="25" height="35" id="iconLeft"></a></div>
+				</div>
+
+		<!-------- La partie dédiée aux articles -----------------
+			------------Les éléments cliquable qui affichent les Popup ------->
+			<section class="conteneur-Element-article">
+				<div class="conteneur-Element-position">
+					<div id="annimalSect1" class="annimalSect"></div>
+					<div class="annimalSect" id="savane02"></div>
+					<div class="annimalSect" id="savane03"></div>
+					<div class="annimalSect" id="savane04"></div>
+					<div class="annimalSect" id="savane05"></div>
+					<!-- normalement masqué puis afficher grace aux media screen-->
+					<div class="savane-masquer">
+						<div class="annimalSect" ></div>
+						<div class="annimalSect"></div>
+						<div class="annimalSect"></div>
+						<div class="annimalSect"></div>
+						<div class="annimalSect"></div>
+					</div>
+					<br>
+					<div class="annimalSect-parti2" >
+						<div class="annimalSect" id="savane06"></div>
+						<div class="annimalSect" id="savane07"></div> 
+						<div class="annimalSect" id="savane08"></div>
+						<div class="annimalSect" id="savane09"></div>
+					</div>
+				</div>
+			</section>
+		<!------------ La section du menu du bas----------------------------
+			------------ ------------------------------------> 
+			<section class="menu_check">
+				<div id="navigationParCheckbox">
+					<a href="index.html"><p class="Nav__link" title="Home"> </p></a> 
+					<a href="savane.html"><p class="Nav__link" title="Savane"></p></a> 
+					<a href="foret.html"><p class="Nav__link" title="Forêt"></p></a> 
+					<a href="ocean.html"><p class="Nav__link" title="Océan"></p></a> 
+					<a href="desert.html"><p class="Nav__link" title="Désert" style="background-color: white;"></p></a> 
+				</div>
+			</section>
+			<div id="image-media"> <img src="img/savane layer.jpg"> </div>
+	<!---------------- POPUP- Part -----------------------------------
+		------------------------------------------->
+		<section>
+			<div id="overlay" class="overlay"> 
+				<div id="popup" class="popup">
+					<div class="popup-titre"> 
+						<h1>Chameaux</h1>
+						<h2>Désert</h2>
+					</div>
+					<p class="Conteneur-btn">
+						<a href="index.html"><span class="btn-green" title="home" ></span> </a> 
+						<a href="wwww.lion.org"><span class="btn-yellow" title="Lire en externe"></span></a> 
+						<span id="btnClose" title="fermer" ></span></p>
+						
+						<div class="popup-textimg" >
+							<!--Definition de l'image de  l'arrière plan de .popup -->	
+						</div>		
+						<div class="details-annimaux">
+							<p class="details-annimaux-titre" >Description</p>
+							<p> <span>Nom scientifique: </span> Camélidés </p>
+							<p><span>Vitesse:</span>20km/h(C.d)</p>
+							<p><span>Période de gestation :</span>13 mois </p>
+							<p><span>Poids: </span>M 800kg, F 600kg </p>
+							<p><span>Longueur:</span> M 1.8 - 2.1m, F 1.6 - 1.8m </p>
+							<p> <span>Taille:</span>2.00 m  </p>
+							<p><span>Espérance de vie:</span>60 - 70 ans</p>
+							<p><span>Mode de vie:</span>Meute </p>
+							<p><span>Régime alimentaire:</span>Herbivore</p>
+							<p><span>Population:</span>32000</p>
+							<!-- Insertion de la musique -->
+							<div class="right-col">
+								<img src="img/orange pause.png" id="icon" title="Cliquez Pour Ecouter">
+							</div>
+							<audio id="mySong">
+								<source src="song/Le cri du CHAMEAU - CHAMEAU qui BLATÈRE - Camel sounds(1).mp3" type="audio/mp3" >
+								</audio>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div id="enveloppe-bas-scroll">
+				<div id="footer-mention-legal">
+					<div id="center-le-footer-other" class="center-le-footer-other" >
+						<div id="foot-page-text" class="foot-page-text" >
+							<h1>Design by Elie Kouakou</h1>
+							<p style="color: white; font-size: 16px;">Entièrement réaliser par Elie Kouakou de la marquette à l’hébergement. </p>
+							<p style="color: white; font-size: 16px; text-align: center;">07 79 76 96 36 / 05 66 30 65 45</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/part-js.js"></script>
+	</body>
+	</html>
